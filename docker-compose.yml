@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  mycentos:
+    build: .
+    container_name: mycentos
+    stdin_open: true
+    tty: true
